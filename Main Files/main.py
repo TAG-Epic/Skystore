@@ -11,7 +11,7 @@ client.remove_command("help")
 @client.event
 async def on_ready():
   print("I'm connected to Discord!")
-  print("Currently running the User ID: %s" % client.user.id)
+  print("Currently running with the User ID: %s" % client.user.id)
   
 @client.event
 async def on_message(message):
