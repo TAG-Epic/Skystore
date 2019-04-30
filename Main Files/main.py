@@ -1,10 +1,8 @@
 import discord
-from discord.ext.commands import Bot
 import asyncio
 import time
 from config import token
 
-Client = discord.Client()
 client = commands.Bot(command_prefix="!", case_insensitive=True)
 client.remove_command("help")
 
